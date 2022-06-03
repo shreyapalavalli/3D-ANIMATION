@@ -1,0 +1,16 @@
+<model-viewer bounds="tight" enable-pan src="Apartment 2.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls environment-image="neutral" poster="poster.webp" shadow-intensity="1" auto-rotate>
+    <button class="Hotspot" slot="hotspot-1" data-position="-0.7002485616990253m -0.11700678613441795m 0.12180806399161481m" data-normal="-6.360251553400568e-8m 0.999999999999998m 0m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Kitchen</div>
+    </button><button class="Hotspot" slot="hotspot-2" data-position="0.39630466900265404m -0.11700671639087545m -0.038770499415886395m" data-normal="-6.360251553400568e-8m 0.999999999999998m 0m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Living room</div>
+    </button>
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+    <button slot="ar-button" id="ar-button">
+        View in your space
+    </button>
+    <div id="ar-prompt">
+        <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+    </div>
+</model-viewer>
